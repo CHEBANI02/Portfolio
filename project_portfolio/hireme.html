@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<h3>Message Me...!</h3>
+<h5>I'd love to hear from you</h5>
+
+<div class="container">
+  <form action="http://localhost/projectnew/connect.php" method="POST">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="name" placeholder="Your name.." required>
+
+    <label for="lname">Email Id</label>
+    <input type="text" id="lname" name="email" placeholder="Your email id..." required>
+
+    <label for="lname">Contact Number</label>
+    <input type="text" id="lname" name="contact" placeholder="Your conact number..." required>
+    
+    <label for="subject">Message</label>
+    <textarea id="subject" name="message" placeholder="Drop your message here..." style="height:200px" required></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
